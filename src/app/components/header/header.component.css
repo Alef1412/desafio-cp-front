@@ -1,0 +1,10 @@
+#header{
+    background-color:var(--bg-color-1);
+}
+#header nav .row{
+    width: 100%;
+}
+
+#header nav a{
+    color: var(--text-color-1);
+}
