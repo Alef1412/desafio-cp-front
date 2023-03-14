@@ -1,0 +1,14 @@
+.books{
+    margin-left: -60px;
+    margin-top: 25px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.books .books_wrapper{
+    padding-inline: 40px;
+}
+
+.books .books_wrapper .books_especifications{
+    width: 176px;
+}

@@ -1,0 +1,6 @@
+.categories{
+    width: 416px;
+    display: flex;
+    justify-content: center;
+    background-color:var(--bg-color-2) ;
+}
