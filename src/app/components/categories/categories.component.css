@@ -4,3 +4,10 @@
     justify-content: center;
     background-color:var(--bg-color-2) ;
 }
+
+.categories div ul li{
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+}
