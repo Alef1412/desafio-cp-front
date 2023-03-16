@@ -3,8 +3,18 @@
 }
 #header nav .row{
     width: 100%;
+    margin-left: 0;
+}
+
+#header .container{
+    width: 1160px;
+    justify-content: space-between;
 }
 
 #header nav a{
     color: var(--text-color-1);
+}
+
+#header .icons .icon_search{
+   margin-inline: 40px; 
 }
