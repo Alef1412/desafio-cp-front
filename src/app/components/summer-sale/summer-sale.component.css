@@ -1,10 +1,10 @@
 #summer_sale .container{
     width: 1238px;
-    margin-inline: auto;
+    height: 755px;
     padding: 0;
+    margin-top: -52px;
 }
 #summer_sale .change_books{
     margin-left: -18.1%;
     margin-top: 11%;
-    padding: 0;
 }
