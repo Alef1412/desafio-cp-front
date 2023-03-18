@@ -16,4 +16,13 @@
     font-size: 12px;
     line-height: 15px;
     margin-block: 23px;
+    list-style:none ;
+}
+.categories div ul li:hover{
+    list-style-image: url(../../../assets/icons/elipse.png);
+}
+
+.categories div ul li a{
+    text-decoration: none;
+    color: var(--text-color-2);
 }
