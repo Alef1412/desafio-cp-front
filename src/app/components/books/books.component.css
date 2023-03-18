@@ -1,9 +1,13 @@
 .books {
     margin-left: -60px;
-    margin-top: 25px;
+    margin-top: 159px;
     display: flex;
     flex-wrap: wrap;
     gap: 75px;
+}
+
+.books .books_wrapper{
+    margin-bottom: 2.5%;
 }
 
 .books .books_wrapper .books_especifications {
