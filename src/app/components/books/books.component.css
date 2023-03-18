@@ -6,15 +6,56 @@
     gap: 75px;
 }
 
-.books .books_wrapper{
+.books .books_wrapper {
     margin-bottom: 2.5%;
+}
+
+.books .books_wrapper h2 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: var(--text-color-1);
+    margin-bottom: 0;
+}
+
+.books .books_wrapper .classification {
+    margin-bottom: 16px;
+}
+
+.books .books_wrapper .classification .review {
+    margin-left: 6px;
+}
+
+.books .books_wrapper .price .discount_price {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 16px;
+    margin-right: 9px;
+}
+
+.books .books_wrapper .price .realy_price {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 16px;
+    text-decoration: line-through;
+    color: #BDBDBD;
 }
 
 .books .books_wrapper .books_especifications {
     width: 176px;
     height: 204px;
     margin-left: 36px;
+    position: relative;
+    top: 40%;
+    transform: translateY(-45%);
 }
+
 
 .books .books_wrapper .books_especifications .gray_text {
     font-family: 'Open Sans';
@@ -37,4 +78,5 @@ button {
     font-size: 8px;
     line-height: 10px;
     text-transform: uppercase;
+    margin-top: 16px;
 }
