@@ -80,3 +80,8 @@ button {
     text-transform: uppercase;
     margin-top: 16px;
 }
+
+button:hover{
+    background-color: var(--text-color-3);
+    color:  #FFFFFF;
+}
