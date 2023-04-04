@@ -1,0 +1,123 @@
+/* Books */
+.books {
+    margin-left: -60px;
+    margin-top: 159px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 75px;
+}
+
+.books .books_wrapper {
+    margin-bottom: 2.5%;
+    width: 424px;
+    height: 300px;
+  }
+
+
+.books .books_wrapper h2 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: var(--text-color-1);
+    margin-bottom: 0;
+}
+
+.books .books_wrapper .classification {
+    margin-bottom: 16px;
+}
+
+.books .books_wrapper .classification .review {
+    margin-left: 6px;
+}
+
+.books .books_wrapper .price .discount_price {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 16px;
+    margin-right: 9px;
+}
+
+.books .books_wrapper .price .realy_price {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 16px;
+    text-decoration: line-through;
+    color: #BDBDBD;
+}
+
+.books .books_wrapper .books_especifications {
+    width: 176px;
+    height: 204px;
+    margin-left: 36px;
+    position: relative;
+    top: 40%;
+    transform: translateY(-45%);
+}
+
+
+.books .books_wrapper .books_especifications .gray_text {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 14px;
+    text-transform: capitalize;
+}
+
+button {
+    background-color: #FFFFFF;
+    width: 176px;
+    height: 45px;
+    border: 1px solid var(--text-color-3);
+    color: var(--text-color-3);
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 8px;
+    line-height: 10px;
+    text-transform: uppercase;
+    margin-top: 16px;
+}
+
+button:hover{
+    background-color: var(--text-color-3);
+    color:  #FFFFFF;
+}
+
+/* Categories */
+
+.categories{
+    margin-top: 134px;
+    width: 416px;
+    height: 710px;
+    display: flex;
+    justify-content: center;
+    background-color:var(--bg-color-2) ;
+}
+
+.categories div .categorie{
+    margin-block: 0;
+}
+
+.categories div ul li{
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    margin-block: 23px;
+    list-style:none ;
+}
+.categories div ul li:hover{
+    list-style-image: url(../../../assets/icons/elipse.png);
+}
+
+.categories div ul li a{
+    text-decoration: none;
+    color: var(--text-color-2);
+}
