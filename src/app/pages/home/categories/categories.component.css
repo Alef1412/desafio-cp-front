@@ -20,7 +20,7 @@
     list-style:none ;
 }
 .categories div ul li:hover{
-    list-style-image: url(../../../assets/icons/elipse.png);
+    list-style-image: url(/assets/icons/elipse.png);
 }
 
 .categories div ul li a{
